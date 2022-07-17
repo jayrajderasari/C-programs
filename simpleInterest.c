@@ -9,7 +9,7 @@ int main() {
    printf("Enter Time Period:");
    scanf("%d", &time);
 
-   interest = (principal*rate*time)/100
+   interest = (principal*rate*time)/100;
     printf("Interest: %d",interest);
     return 0;
 }
