@@ -11,7 +11,6 @@ int main(void) {
     int number = rand()%21;
 
     printf("Welcome to game\n");
-    printf("%d\n", number);
     printf("Enter your guess between 1-20\n");
     for(maxGuesses=5; maxGuesses>>0; --maxGuesses){
         printf("%d Guesses Left\n", maxGuesses);
@@ -34,7 +33,9 @@ int main(void) {
                 printf("Number is greater than guess\n");
         }
     }   
-        // printf("better luck next timne\n");
+	    printf("The number is %d\n", number);
+
+	printf("Better luck next time\n");
     
 
 	return 0;
